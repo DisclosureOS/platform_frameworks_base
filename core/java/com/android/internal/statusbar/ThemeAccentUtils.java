@@ -87,17 +87,6 @@ public class ThemeAccentUtils {
         "com.aospextended.ota.theme.black", //7
     };
 
-    private static final String[] EXTENDED_THEMES = {
-        "com.android.system.theme.extended", // 0
-        "com.android.settings.theme.extended", // 1
-        "com.android.systemui.theme.extended", // 2
-        "com.accents.extendedgreen", //3
-        "com.android.dialer.theme.extended", //4
-        "com.android.contacts.theme.extended", //5
-        "com.android.documentsui.theme.extended", //6
-        "com.google.android.apps.wellbeing.theme.extended", //7
-        "com.aospextended.ota.theme.extended", //8
-    };
 
     private static final String[] CHOCOLATE_THEMES = {
         "com.android.system.theme.chocolate", // 0

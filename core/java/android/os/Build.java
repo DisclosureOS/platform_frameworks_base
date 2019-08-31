@@ -54,7 +54,7 @@ public class Build {
     /**
      * @hide
      */
-    public static final String EXTENDED_DISPLAY_VERSION = getString("ro.extended.display.version");
+    public static final String DISCLOSURE_DISPLAY_VERSION = getString("ro.disclosure.display.version");
 
     /** The name of the overall product. */
     public static final String PRODUCT = getString("ro.product.name");
@@ -965,7 +965,7 @@ public class Build {
     /**
      * @hide
      */
-    public static final String CUSTOM_FINGERPRINT = SystemProperties.get("ro.extended.fingerprint",
+    public static final String CUSTOM_FINGERPRINT = SystemProperties.get("ro.disclosure.fingerprint",
             deriveFingerprint());
 
     /**
